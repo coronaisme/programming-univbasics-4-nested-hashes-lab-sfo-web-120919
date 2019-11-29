@@ -55,11 +55,10 @@ def dennis_ritchies_language
         },
         :dennis_ritchie => {
           :known_for => "Unix",
-          :languages => ["C"]
+          :languages => "C"
         }
      }
-    c = programmer_hash[:dennis_ritchie][:languages]
-    return c.to_s
+    programmer_hash[:dennis_ritchie][:languages]
 end
 dennis_ritchies_language
 
