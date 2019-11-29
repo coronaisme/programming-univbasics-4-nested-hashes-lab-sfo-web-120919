@@ -15,7 +15,7 @@ def hopper
           :languages => ["C"]
         }
      }
-hopper[:grace_hopper]
+filter_parameter_logging
 
 end
 
